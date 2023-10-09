@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcu.css">
+    <script src="calcu.js"></script>
+</head>
+
+<body>
+    <section class="calc">
+        <div class="sub-calc">
+            <div class="display">
+                <input type="text" id="display" readonly>
+            </div>
+            <div class="btn-1">
+                <input class="btn-2, btn-3" type="button" value="CLEAR" onclick="cleardisplay()">
+                <!-- <input type="button" value="">
+                <input type="button" value=""> -->
+                <input class="btn-2, btn-4" type="button" value="/" onclick="addTodisplay('/')">
+                <input class="btn-2" type="button" value="7" onclick="addTodisplay('7')">
+                <input class="btn-2" type="button" value="8" onclick="addTodisplay('8')">
+                <input class="btn-2" type="button" value="9" onclick="addTodisplay('9')">
+                <input class="btn-2, btn-4" type="button" value="*" onclick="addTodisplay('*')">
+                <input class="btn-2" type="button" value="4" onclick="addTodisplay('4')">
+                <input class="btn-2" type="button" value="5" onclick="addTodisplay('5')">
+                <input class="btn-2" type="button" value="6" onclick="addTodisplay('6')">
+                <input class="btn-2, btn-4" type="button" value="-" onclick="addTodisplay('-')">
+                <input class="btn-2" type="button" value="1" onclick="addTodisplay('1')">
+                <input class="btn-2" type="button" value="2" onclick="addTodisplay('2')">
+                <input class="btn-2" type="button" value="3" onclick="addTodisplay('3')">
+                <input class="btn-2, btn-4" type="button" value="+" onclick="addTodisplay('+')">
+                <input class="btn-2" type="button" value="0" onclick="addTodisplay('0')">
+                <input class="btn-2" type="button" value="00" onclick="addTodisplay('00')">
+                <input class="btn-2" type="button" value="." onclick="addTodisplay('.')">
+                <input class="btn-2, btn-4" type="button" value="=" onclick="calculate()">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
